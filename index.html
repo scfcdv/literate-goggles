@@ -1,4 +1,3 @@
-
 <title>モスキート音モールス信号</title>
 <link rel="icon" href="https://scfcdv.github.io/homeweb2/favicon.ico">
 <a href="https://morse.ariafloat.com/" target="_blank">モールス信号変換機</a><br>
@@ -28,7 +27,7 @@ isPlaying = true;
 var audio = audioQueue.shift();
 audio.play();
 audio.onended = function() {
-setTimeout(playNextAudio, 300);};
+setTimeout(playNextAudio, 200);};
 } else {
 isPlaying = false;}}
 </script>
